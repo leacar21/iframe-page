@@ -29,7 +29,7 @@
 
         function processMessage(event) {
             // IMPORTANT: Check the origin of the data! 
-            if (~event.origin.indexOf('http://localhost')) {
+            if (~event.origin.indexOf('http://parent-page.herokuapp.com')) {
                 // The data has been sent from your site 
 
                 var brand = event.data;
